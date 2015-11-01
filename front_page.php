@@ -50,18 +50,11 @@ header('Pragma: no-cache');
 header('Content-Type: text/html');
 if (isset ($_GET['CartAction']))
 {
-$cart_action = $_GET['CartAction'];
-if ($cart_action == ADD_PRODUCT)
-{
-require_once PRESENTATION_DIR . 'cart_details.php';
-$cart_details = new CartDetails();
-$cart_details->init();
-$application->display('cart_summary.tpl');
-}
-else
-{
-$application->display('cart_details.tpl');
-}
+require_once PRESENTATION_DIR . 'truck_front.php';
+$truck = new TruckFront();
+//$truck->init();
+$application->display('truck_front.tpl');
+
 }
 else
 trigger_error('CartAction not set', E_USER_ERROR);
