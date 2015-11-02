@@ -6,10 +6,10 @@ jQuery(document).ready(function(){
 	$('[data-toggle="popover"]').popover();
 	$('[data-toggle="tooltip"]').tooltip();  
 
+});
+
 $(window).on("load", function() {
  $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
-        CartAction: true}))  
-     
+        CartAction: true}))       
 })
-});
