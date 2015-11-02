@@ -63,7 +63,7 @@ trigger_error('CartAction not set', E_USER_ERROR);
 else
 {
 // Display the page
-$application->display('truck_front.tpl');
+//$application->display('truck_front.tpl');
 }
 // Try to load inexistent file
 //require_once 'inexistent_file.php';

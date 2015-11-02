@@ -5,5 +5,6 @@
 <file name="500.php" server="C:/wamp/www/truck/" local="130597942218573602" remote="130597942210000000" Dst="2" />
 <file name=".htaccess" server="C:/wamp/www/smarty_build/" local="130908118574686952" remote="130908118570000000" Dst="2" />
 <file name="index.html" server="C:/wamp/www/smarty_build/" local="130908867707222163" remote="130908867700000000" Dst="1" />
-<file name="front_page.php" server="C:/wamp/www/smarty_build/" local="130908866596248619" remote="130908866590000000" Dst="1" />
+<file name="front_page.php" server="C:/wamp/www/smarty_build/" local="130909764537350729" remote="130909764530000000" Dst="1" />
+<file name="config.xml" server="C:/wamp/www/smarty_build/" local="130909786121249690" remote="130909786120000000" Dst="1" />
 </dwsync>
