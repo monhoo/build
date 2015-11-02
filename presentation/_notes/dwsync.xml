@@ -12,5 +12,9 @@
 <file name="link.php" server="C:/wamp/www/Responsive_web/" local="130718151310000000" remote="130718151310000000" Dst="2" />
 <file name="first_page_contents.php" server="C:/wamp/www/Responsive_web/" local="130599428940000000" remote="130599428940000000" Dst="2" />
 <file name="home_page.php" server="C:/wamp/www/Responsive_web/" local="130901877209480696" remote="130901877200000000" Dst="2" />
+<<<<<<< HEAD
 <file name="truck_front.php" server="C:/wamp/www/smarty_build/" local="130908855400418254" remote="130908855400000000" Dst="1" />
+=======
+<file name="truck_front.php" server="C:/wamp/www/smarty_build/" local="130908147673321299" remote="130908147670000000" Dst="2" />
+>>>>>>> b5fff0647d25873b998811318293bdd7fb0b85fb
 </dwsync>

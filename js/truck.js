@@ -5,6 +5,7 @@ jQuery(document).ready(function(){
     });
 	$('[data-toggle="popover"]').popover();
 	$('[data-toggle="tooltip"]').tooltip();  
+<<<<<<< HEAD
 
 $(window).on("load", function() {
  $(".container").load("front_page.php?" + $.param({
@@ -13,4 +14,6 @@ $(window).on("load", function() {
      
 })
 
+=======
+>>>>>>> b5fff0647d25873b998811318293bdd7fb0b85fb
 });

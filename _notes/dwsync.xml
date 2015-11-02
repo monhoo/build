@@ -9,6 +9,9 @@
 <file name="index.php" server="C:/wamp/www/smarty_build" local="130901827518948560" remote="130901827510000000" Dst="2" />
 <file name=".htaccess" server="C:/wamp/www/smarty_build/" local="130908118574686952" remote="130908118570000000" Dst="2" />
 <file name="index.php" server="C:/wamp/www/smarty_build/" local="130908120315386514" remote="130908120310000000" Dst="2" />
+<<<<<<< HEAD
 <file name="index.html" server="C:/wamp/www/smarty_build/" local="130908867707222163" remote="130908867700000000" Dst="1" />
 <file name="front_page.php" server="C:/wamp/www/smarty_build/" local="130908866596248619" remote="130908866590000000" Dst="1" />
+=======
+>>>>>>> b5fff0647d25873b998811318293bdd7fb0b85fb
 </dwsync>

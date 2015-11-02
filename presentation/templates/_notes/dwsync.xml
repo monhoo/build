@@ -6,5 +6,9 @@
 <file name="truck_front.tpl" server="C:/wamp/www/Responsive_web/" local="130908056945881986" remote="130908056940000000" Dst="2" />
 <file name="first_page_contents.tpl" server="C:/wamp/www/Responsive_web/" local="130901874569909721" remote="130901874560000000" Dst="2" />
 <file name="home_page.tpl" server="C:/wamp/www/Responsive_web/" local="130902685228785188" remote="130902685220000000" Dst="2" />
+<<<<<<< HEAD
 <file name="truck_front.tpl" server="C:/wamp/www/smarty_build/" local="130908860279807339" remote="130908860270000000" Dst="1" />
+=======
+<file name="truck_front.tpl" server="C:/wamp/www/smarty_build/" local="130908153337045245" remote="130908153330000000" Dst="2" />
+>>>>>>> b5fff0647d25873b998811318293bdd7fb0b85fb
 </dwsync>

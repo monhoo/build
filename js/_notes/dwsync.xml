@@ -4,7 +4,13 @@
 <file name="bootstrap.min.js" server="C:/wamp/www/truck/" local="130789627700000000" remote="130789627700000000" Dst="2" />
 <file name="npm.js" server="C:/wamp/www/truck/" local="130789627700000000" remote="130789627700000000" Dst="2" />
 <file name="jquery-1.9.1.js" server="C:/wamp/www/truck/" local="130570315380000000" remote="130570315380000000" Dst="2" />
+<<<<<<< HEAD
 <file name="jquery-2.1.4.min.js" server="C:/wamp/www/Responsive_web/" local="130902858071532944" remote="130902858070000000" Dst="2" />
 <file name="truck.js" server="C:/wamp/www/Responsive_web/" local="130903861353656887" remote="130903861350000000" Dst="2" />
 <file name="truck.js" server="C:/wamp/www/smarty_build/" local="130908841890585536" remote="130908841890000000" Dst="1" />
+=======
+<file name="ajax.js" server="C:/wamp/www/truck/" local="130696446216867793" remote="130696446210000000" Dst="2" />
+<file name="jquery-2.1.4.min.js" server="C:/wamp/www/Responsive_web/" local="130902858071532944" remote="130902858070000000" Dst="2" />
+<file name="truck.js" server="C:/wamp/www/Responsive_web/" local="130903861353656887" remote="130903861350000000" Dst="2" />
+>>>>>>> b5fff0647d25873b998811318293bdd7fb0b85fb
 </dwsync>
