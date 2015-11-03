@@ -39,11 +39,11 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function() {
-       $(window).on("load", function() {
+//       $(window).on("load", function() {
  $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
         CartAction: true}))       
-});
+//});
 
 jQuery("#myBtn").click(function(){
         $("#myModal").modal();
