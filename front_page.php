@@ -37,9 +37,7 @@ Link::CheckRequest();
 
 // Load Smarty template file
 $application = new Application();
-// Display the page
-//$application->display('store_front.tpl'); it was before AJAX implement;
-// Handle AJAX requests
+
 if (isset ($_GET['AjaxRequest']))
 {
 // Headers are sent to prevent browsers from caching
