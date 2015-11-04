@@ -50,7 +50,7 @@ if (isset ($_GET['CartAction']))
 {
 require_once PRESENTATION_DIR . 'truck_front.php';
 $truck = new TruckFront();
-//$truck->init();
+
 $application->display('truck_front.tpl');
 
 }
@@ -66,7 +66,7 @@ else
 // Try to load inexistent file
 //require_once 'inexistent_file.php';
 // Close database connection
-DatabaseHandler::Close();
+//DatabaseHandler::Close();
 // Output content from the buffer
 flush();
 ob_flush();
