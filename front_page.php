@@ -57,7 +57,7 @@ if (isset ($_GET["CartAction"]))
   <h3>Popover Example</h3>
   <a href="#" title="Header" data-toggle="popover" data-content="Some content">Click Me</a><br>
   <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
-</div>
+</div></container>
 
 <div class="container">
   <h2>Modal Login Example</h2>
@@ -209,8 +209,8 @@ class="img-circle img-responsive" alt="tshirtshop logo" />
 </div><!--end of row-->
 </div>';
 
-/*require_once PRESENTATION_DIR . "truck_front.php";*/
-require_once "presentation/truck_front.php";
+
+require("presentation/truck_front.php");
 $truck = new TruckFront();
 print_r($truck);
 echo $application -> display("truck_front.tpl");
@@ -233,4 +233,5 @@ else
 flush();
 ob_flush();
 ob_end_clean();
+/*require_once PRESENTATION_DIR . "truck_front.php";*/
 ?>   
