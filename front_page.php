@@ -207,13 +207,12 @@ class="img-circle img-responsive" alt="tshirtshop logo" />
 </nav>
 
 </div><!--end of row-->
-</div>
+</div>';
 
-';
 require_once PRESENTATION_DIR . "truck_front.php";
 $truck = new TruckFront();
 print_r($truck);
-$application -> display("truck_front.tpl");
+echo $application -> display("truck_front.tpl");
 
 }
 else
