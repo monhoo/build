@@ -5,7 +5,7 @@ session_start();
 // Start output buffer
 ob_start();
 // Include utility files
-require_once ('include/config.php');
+require_once ("include/config.php");
 //require_once BUSINESS_DIR . 'error_handler.php';
 // Set the error handler
 //ErrorHandler::SetHandler();
@@ -38,15 +38,15 @@ Link::CheckRequest();
 // Load Smarty template file
 $application = new Application();
 
-if (isset ($_GET['AjaxRequest']))
+if (isset ($_GET["AjaxRequest"]))
 {
 // Headers are sent to prevent browsers from caching
-header('Expires: Fri, 25 Dec 1980 00:00:00 GMT'); // Time in the past
-header('Last-Modified: ' . gmdate('D, d M Y H:i:s') . ' GMT');
-header('Cache-Control: no-cache, must-revalidate');
-header('Pragma: no-cache');
-header('Content-Type: text/html');
-if (isset ($_GET['CartAction']))
+header("Expires: Fri, 25 Dec 1980 00:00:00 GMT"); // Time in the past
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-cache, must-revalidate");
+header("Pragma: no-cache");
+header("Content-Type: text/html");
+if (isset ($_GET["CartAction"]))
 {
 	echo '<div class="container">
 	<div class="bg-danger col-sm-3">fghghfghf</div>
@@ -210,10 +210,10 @@ class="img-circle img-responsive" alt="tshirtshop logo" />
 </div>
 
 ';
-/*require_once PRESENTATION_DIR . 'truck_front.php';
+require_once PRESENTATION_DIR . "truck_front.php";
 $truck = new TruckFront();
 print_r($truck);
-$application -> display('truck_front.tpl');*/
+$application -> display("truck_front.tpl");
 
 }
 else
