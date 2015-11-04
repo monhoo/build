@@ -49,9 +49,9 @@ header('Content-Type: text/html');
 if (isset ($_GET['CartAction']))
 {
 require_once PRESENTATION_DIR . 'truck_front.php';
-$truck = new TruckFront();
+/*$truck = new TruckFront();
 print_r($truck);
-$application -> display('truck_front.tpl');
+$application -> display('truck_front.tpl');*/
 
 }
 else
