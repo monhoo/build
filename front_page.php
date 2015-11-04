@@ -111,7 +111,7 @@ if (isset ($_GET['CartAction']))
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="{$obj->mSiteUrl}images/image3.jpg" alt="Chania">
+        <img src="images/image3.jpg" alt="Chania">
         <div class="carousel-caption">
           <h3>Chania</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -119,7 +119,7 @@ if (isset ($_GET['CartAction']))
       </div>
 
       <div class="item">
-        <img src="{$obj->mSiteUrl}images/image2.jpg" alt="Chania" >
+        <img src="images/image2.jpg" alt="Chania" >
         <div class="carousel-caption">
           <h3>Chania</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -127,7 +127,7 @@ if (isset ($_GET['CartAction']))
       </div>
     
       <div class="item">
-        <img src="{$obj->mSiteUrl}images/image3.jpg" alt="Flower" >
+        <img src="images/image3.jpg" alt="Flower" >
         <div class="carousel-caption">
           <h3>Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
@@ -150,7 +150,7 @@ if (isset ($_GET['CartAction']))
   </div>
 <div class="container-fluid">
 <div class="row bg-success">
-<a href="{$obj->mSiteUrl}"><img src="{$obj->mSiteUrl}images/image2.jpg"
+<a href="{$obj->mSiteUrl}"><img src="images/title.png"
 class="img-circle img-responsive" alt="tshirtshop logo" />
 </a>
 </div><!--end of row-->
