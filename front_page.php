@@ -48,8 +48,17 @@ header('Pragma: no-cache');
 header('Content-Type: text/html');
 if (isset ($_GET['CartAction']))
 {
-require_once PRESENTATION_DIR . 'truck_front.php';
-/*$truck = new TruckFront();
+	echo '<div class="bg-danger col-sm-3">fghghfghf</div>
+
+<div class="container">
+<h3>Tooltip Example</h3>
+  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Hover over me</a>
+  <h3>Popover Example</h3>
+  <a href="#" title="Header" data-toggle="popover" data-content="Some content">Click Me</a><br>
+  <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
+</div>';
+/*require_once PRESENTATION_DIR . 'truck_front.php';
+$truck = new TruckFront();
 print_r($truck);
 $application -> display('truck_front.tpl');*/
 
