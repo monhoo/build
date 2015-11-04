@@ -48,9 +48,10 @@ header('Pragma: no-cache');
 header('Content-Type: text/html');
 if (isset ($_GET['CartAction']))
 {
-	echo '<div class="bg-danger col-sm-3">fghghfghf</div>
+	echo '<div class="container">
+	<div class="bg-danger col-sm-3">fghghfghf</div>
 
-<div class="container">
+
 <h3>Tooltip Example</h3>
   <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Hover over me</a>
   <h3>Popover Example</h3>
