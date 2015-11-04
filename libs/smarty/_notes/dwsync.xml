@@ -8,4 +8,8 @@
 <file name="debug.tpl" server="C:/wamp/www/truck/" local="130251284480000000" remote="130251284480000000" Dst="2" />
 <file name="Smarty.class.php" server="C:/wamp/www/truck/" local="130595228707169326" remote="130595228700000000" Dst="2" />
 <file name="Smarty_Compiler.class.php" server="C:/wamp/www/truck/" local="130251284480000000" remote="130251284480000000" Dst="2" />
+<file name="Config_File.class.php" server="C:/wamp/www/smarty_build/" local="130251284480000000" remote="130251284480000000" Dst="1" />
+<file name="debug.tpl" server="C:/wamp/www/smarty_build/" local="130251284480000000" remote="130251284480000000" Dst="1" />
+<file name="Smarty.class.php" server="C:/wamp/www/smarty_build/" local="130595228707169326" remote="130595228700000000" Dst="1" />
+<file name="Smarty_Compiler.class.php" server="C:/wamp/www/smarty_build/" local="130251284480000000" remote="130251284480000000" Dst="1" />
 </dwsync>

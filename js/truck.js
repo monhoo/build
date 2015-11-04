@@ -39,9 +39,8 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent();
-		 $(window).on("load", function() {
-       
+       // app.receivedEvent();
+		 $(window).on("load", function() {       
 $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
         CartAction: true}))

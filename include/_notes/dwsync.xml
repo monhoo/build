@@ -10,5 +10,9 @@
 <file name="config.php" server="C:/wamp/www/truck/" local="130901822228705975" remote="130901822220000000" Dst="2" />
 <file name="setup_smarty.php" server="C:/wamp/www/truck/" local="127446821840000000" remote="127446821840000000" Dst="2" />
 <file name="tss_error_handler.php" server="C:/wamp/www/truck/" local="127446821340000000" remote="127446821340000000" Dst="2" />
-<file name="config.php" server="C:/wamp/www/smarty_build/" local="130908114200046737" remote="130908114200000000" Dst="2" />
+<file name="config.php" server="C:/wamp/www/smarty_build/" local="130908114200046737" remote="130908114200000000" Dst="1" />
+<file name="app_top.php" server="C:/wamp/www/smarty_build/" local="127446820860000000" remote="127446820860000000" Dst="1" />
+<file name="config.inc.php" server="C:/wamp/www/smarty_build/" local="130593675048325011" remote="130593675040000000" Dst="1" />
+<file name="setup_smarty.php" server="C:/wamp/www/smarty_build/" local="127446821840000000" remote="127446821840000000" Dst="1" />
+<file name="tss_error_handler.php" server="C:/wamp/www/smarty_build/" local="127446821340000000" remote="127446821340000000" Dst="1" />
 </dwsync>
