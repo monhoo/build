@@ -16,8 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- 
- 
+  document.addEventListener('deviceready', this.onDeviceReady, false);
+ function onDeviceReady(){       
+$(".container").load("front_page.php?" + $.param({
+        AjaxRequest: true,
+        CartAction: true}))		
+	 }
 var app = {
     // Application Constructor
     initialize: function() {
