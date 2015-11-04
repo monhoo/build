@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-  $(body).on("load", function() {
+  $(window).on("load", function() {
        
 $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
