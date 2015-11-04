@@ -17,7 +17,7 @@
  * under the License.
  */
   document.addEventListener('deviceready', this.onDeviceReady, false);
- function onDeviceReady(){       
+ function  initialization(){       
 $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
         CartAction: true}))		
