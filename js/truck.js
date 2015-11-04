@@ -16,12 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-  $(window).on("load", function() {
-       
-$(".container").load("front_page.php?" + $.param({
-        AjaxRequest: true,
-        CartAction: true}))
-		})
+ 
  
 var app = {
     // Application Constructor
