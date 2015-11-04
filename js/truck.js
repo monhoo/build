@@ -36,12 +36,12 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent();
-		 $(window).on("load", function() {
+		// $(window).on("load", function() {
        
 $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
         CartAction: true}))
-		})
+		//})
     },
     // Update DOM on a Received Event
     receivedEvent: function() {

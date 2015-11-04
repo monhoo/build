@@ -50,7 +50,6 @@ if (isset ($_GET['CartAction']))
 {
 require_once PRESENTATION_DIR . 'truck_front.php';
 $truck = new TruckFront();
-
 $application->display('truck_front.tpl');
 
 }
