@@ -48,10 +48,9 @@ header("Pragma: no-cache");
 header("Content-Type: text/html");
 if (isset ($_GET["CartAction"]))
 {
-
 require("presentation/truck_front.php");
 $truck = new TruckFront();
-echo ($application -> display("truck_front.tpl"));
+print($application->display("truck_front.tpl"));
 
 }
 else

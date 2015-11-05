@@ -1,5 +1,4 @@
 {* smarty *}
-{config_load file="site.conf"}
 {load_presentation_object filename="truck_front" assign="obj"}
 
 <div>{$obj->mSiteUrl}</div>
