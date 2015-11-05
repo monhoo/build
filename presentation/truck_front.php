@@ -19,4 +19,7 @@ public function init(){
 
 
 }
+$hey = new TruckFront();
+echo '<div class="bg-success">'.$hey->mMyWord.'</div>';
+echo '<div class="bg-warning">'.$hey->mSiteUrl.'</div>';
 ?>
