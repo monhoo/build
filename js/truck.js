@@ -16,12 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- 
- $(window).on("load", function() {      
+$(document).ready(function(){$.ajax({url:"front_page.php?AjaxRequest=true&&     CartAction=true", success: function(data){$(".container").html(data);},cache:false}); }); 
+/* $(window).on("load", function() {      
 $(".container").load("front_page.php?" + $.param({
         AjaxRequest: true,
         CartAction: true}))		
-	 });
+	 });*/
 var app = {
     // Application Constructor
     initialize: function() {
