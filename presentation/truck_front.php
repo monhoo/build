@@ -8,8 +8,8 @@ public function __construct(){
 $this->mSiteUrl = Link::Build('');
 
 $this->mMyWord = "this is freaking good";
-echo '<div class="bg-success">'.$this->mMyWord.'</div>';
-echo '<div class="bg-warning">'.$this->mSiteUrl.'</div>';
+/*echo '<div class="bg-success">'.$this->mMyWord.'</div>';
+echo '<div class="bg-warning">'.$this->mSiteUrl.'</div>';*/
 
 }
 // Initialize presentation object

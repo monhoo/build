@@ -40,12 +40,7 @@ $application = new Application();
 
 if (isset ($_GET["AjaxRequest"]))
 {
-// Headers are sent to prevent browsers from caching
-header("Expires: Fri, 25 Dec 1980 00:00:00 GMT"); // Time in the past
-header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
-header("Cache-Control: no-cache, must-revalidate");
-header("Pragma: no-cache");
-header("Content-Type: text/html");
+
 if (isset ($_GET["CartAction"]))
 {
 include("presentation/truck_front.php");
