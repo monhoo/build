@@ -50,6 +50,7 @@ if (isset ($_GET["CartAction"]))
 {
 require("presentation/truck_front.php");
 $truck = new TruckFront();
+echo $truck->mMyWord;
 echo(file_get_contents("presentation/templates/truck_front.tpl"));
 }
 else
@@ -57,7 +58,7 @@ trigger_error('CartAction not set', E_USER_ERROR);
 }
 else
 {
-$application->display('truck_front.tpl');
+echo $application->display('truck_front.tpl');
 }
 flush();
 ob_flush();
