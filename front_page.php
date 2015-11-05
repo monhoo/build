@@ -58,7 +58,7 @@ trigger_error('CartAction not set', E_USER_ERROR);
 }
 else
 {
-echo $application->display('truck_front.tpl');
+
 }
 
 
