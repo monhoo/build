@@ -51,24 +51,16 @@ if (isset ($_GET["CartAction"]))
 require("presentation/truck_front.php");
 $truck = new TruckFront();
 echo(file_get_contents("presentation/templates/truck_front.tpl"));
-
 }
 else
 trigger_error('CartAction not set', E_USER_ERROR);
 }
-
 else
 {
-// Display the page
-//$application->display('truck_front.tpl');
+$application->display('truck_front.tpl');
 }
-// Try to load inexistent file
-//require_once 'inexistent_file.php';
-// Close database connection
-//DatabaseHandler::Close();
-// Output content from the buffer
 flush();
 ob_flush();
 ob_end_clean();
-/*require_once PRESENTATION_DIR . "truck_front.php";*/
+
 ?>   
