@@ -48,9 +48,9 @@ header("Pragma: no-cache");
 header("Content-Type: text/html");
 if (isset ($_GET["CartAction"]))
 {
-require("presentation/truck_front.php");
+include("presentation/truck_front.php");
 $truck = new TruckFront();
-echo PRESENTATION_DIR;
+echo (PRESENTATION_DIR);
 echo'<div style="width:20px;height:30px;" class="bg-danger">iopopoipiop</div>';
 echo(file_get_contents("presentation/templates/truck_front.tpl"));
 }
