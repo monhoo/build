@@ -50,7 +50,7 @@ if (isset ($_GET["CartAction"]))
 {
 require("presentation/truck_front.php");
 $truck = new TruckFront();
-print($application->display("truck_front.tpl"));
+print($application->display("presentation/templates/truck_front.tpl"));
 
 }
 else
