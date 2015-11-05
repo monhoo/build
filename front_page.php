@@ -3,7 +3,7 @@
 session_start();
 
 // Start output buffer
-ob_start();
+//ob_start();
 // Include utility files
 require_once ("include/config.php");
 //require_once BUSINESS_DIR . 'error_handler.php';
@@ -60,8 +60,6 @@ else
 {
 echo $application->display('truck_front.tpl');
 }
-flush();
-ob_flush();
-ob_end_clean();
+
 
 ?>   
