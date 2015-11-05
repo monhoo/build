@@ -43,7 +43,7 @@ if (isset ($_GET["AjaxRequest"]))
 
 if (isset ($_GET["CartAction"]))
 {
-include("presentation/truck_front.php");
+echo(include("presentation/truck_front.php"));
 $truck = new TruckFront();
 
 echo'<div style="width:20px;height:30px;" class="bg-danger">iopopoipiop</div>';
@@ -55,7 +55,7 @@ trigger_error('CartAction not set', E_USER_ERROR);
 }
 else
 {
-echo'<div style="width:20px;height:30px;" class="bg-success">sfdggdfgd</div>';
+//echo'<div style="width:20px;height:30px;" class="bg-success">sfdggdfgd</div>';
 }
 
 
