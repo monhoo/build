@@ -49,17 +49,9 @@ header("Content-Type: text/html");
 if (isset ($_GET["CartAction"]))
 {
 
-
- $ch = curl_init();
- curl_setopt($ch, CURLOPT_URL, "presentation/truck_front.php");
- curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
- $output = curl_exec($ch);
- curl_close($ch);
- echo $output ;
-/*require("presentation/truck_front.php");
+require("presentation/truck_front.php");
 $truck = new TruckFront();
-print_r($truck);
-echo $application -> display("truck_front.tpl");*/
+echo ($application -> display("truck_front.tpl"));
 
 }
 else
