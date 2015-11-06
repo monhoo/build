@@ -10,8 +10,8 @@ require_once ("include/config.php");
 // Set the error handler
 //ErrorHandler::SetHandler();
 // Load the application page template
-require_once PRESENTATION_DIR . 'application.php';
-require_once PRESENTATION_DIR . 'link.php';
+require_once ("presentation/application.php");
+require_once ("pesentation/link.php");
 // Load the database handler
 //require_once BUSINESS_DIR . 'database_handler.php';
 // Load Business Tier

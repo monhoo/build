@@ -1,6 +1,6 @@
 <?php
 // Reference Smarty library
-require_once SMARTY_DIR . 'Smarty.class.php';
+require_once ("../libs/smarty/Smarty.class.php");
 /* Class that extends Smarty, used to process and display Smarty
 files */
 class Application extends Smarty
@@ -16,8 +16,8 @@ $this->compile_dir = COMPILE_DIR;
 //print_r($this->compile_dir);exit;
 $this->config_dir = CONFIG_DIR;
 //$this->debugging = true;
-$this->plugins_dir[0] = SMARTY_DIR . 'plugins';
-$this->plugins_dir[1] = PRESENTATION_DIR . 'smarty_plugins';
+$this->plugins_dir[0] = "../libs/smarty/plugins";
+$this->plugins_dir[1] = "/smarty_plugins";
 }
 }
 ?>
