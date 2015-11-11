@@ -29,15 +29,14 @@ header('Pragma: no-cache');
 header('Content-Type: text/html');
 if (isset ($_GET["CartAction"]))
 {
-	ob_start();
-echo(include("presentation/truck_front.php"));
-$truck = new TruckFront();
-echo ($application->display('presentation/templates/truck_front.tpl'));
-echo'<div style="width:20px;height:30px;" class="bg-danger">iopopoipiop</div>';
-echo(file_get_contents("presentation/templates/truck_front.tpl"));
-flush();
-ob_flush();
-ob_end_clean();
+$huudas='';
+$huudas.= include("presentation/truck_front.php");
+
+$huudas.= $application->display('presentation/templates/truck_front.tpl');
+$huudas.= '<div style="width:20px;height:30px;" class="bg-danger">iopopoipiop</div>';
+$huudas.= file_get_contents("presentation/templates/truck_front.tpl");
+echo $huudas;
+
 }
 else{
 trigger_error('CartAction not set', E_USER_ERROR);
